@@ -5,222 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>e-Comerce</title>
-    <link rel="stylesheet" type="text/css" href="./assets/estilos.css" />
-
-    <link rel="shortcut icon" type="image/x-icon" href="./img/logos.png" />
-
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="index.css">
+	<script src="./assets/zapas.js"></script>
+	<script src="./assets/cartService.js" defer></script>
+	<script src="./assets/index.js" defer></script>
   </head>
   <body>
     <header>
-      <div class="nav container">
-        <!-- Logo -->
-        <a href="#" class="logo">
-          <img src="./img/logo1.png" />
-        </a>
-        <!-- liks -->
-        <ul class="navbar">
-          <li><a href="#home" class="active">Home</a></li>
-          <li><a href="#featured">Zapatillas</a></li>
-          <li><a href="#shop">Shop</a></li>
-          <li><a href="#new">Accesorios</a></li>
-          
-        </ul>
-        <!-- Iconos -->
-        <div class="nav-icons">
-          <a href="#" class="user"><i class="bx bxs-user"></i></a>
-          <a href="#" class="cart"
-            ><i class="bx bxs-cart-alt"></i><span>0</span></a
-          >
-          <i class="bx bx-menu" id="menu-icon"></i>
-        </div>
-      </div>
-    </header>
-    <!-- Home -->
-    <section class="home" id="home">
-      <div class="home-container container">
-        <div class="home-text">
-          <h1>Coleccion Invierno <br />Linea Nueva</h1>
-          <p>
-            Este tejido sintético lo encontramos en muchas prendas de abrigo,
-            pero sobre todo es el tejido sintético por excelencia de las
-            camisetas térmicas que se llevan pegadas a la piel.
-          </p>
-          <a href="#" class="btn">Compra Ahora</a>
-        </div>
-        <div class="home-img">
-          <img src="./img/home1.webp" alt="" />
-        </div>
-      </div>
-    </section>
-
-    <section class="featured" id="featured">
-      <div class="heading">
-        <h2>Zapatillas <span>Adidas</span></h2>
-      </div>
-
-      <div class="featured-container container">
-        <!-- Caja1 -->
-        <div class="box">
-          <img src="./img/featured1.png" alt="" />
-          <div class="text">
-            <h2>
-              Nueva Coleccion <br />
-              De Zapatos
-            </h2>
-            <a href="#">View More</a>
-          </div>
-        </div>
-        <!-- Caja2 -->
-        <div class="box">
-          <div class="text">
-            <h2>20% descuento <br />En Zapatos</h2>
-            <a href="#">View More</a>
-          </div>
-          <img src="./img/featured2.png" alt="" />
-        </div>
-      </div>
-    </section>
-    <!-- Shop -->
-    <section class="shop" id="shop">
-      <div class="heading">
-        <h2><span>Compra</span> Ya!</h2>
-      </div>
-
-      <div class="shop-container container">
-        <div class="box">
-          <img src="./img/shop1.png" alt="" />
-          <h2>Nike Therma</h2>
-          <span>51000</span>
-          <a href="#"><i class="bx bxs-cart-alt"></i></a>
-        </div>
-
-        <div class="box">
-          <img src="./img/shop2.png" alt="" />
-          <h2>Nike Therma</h2>
-          <span>51000</span>
-          <a href="#"><i class="bx bxs-cart-alt"></i></a>
-        </div>
-
-        <div class="box">
-          <img src="./img/shop3.png" alt="" />
-          <h2>Nike Hod</h2>
-          <span>65000</span>
-          <a href="#"><i class="bx bxs-cart-alt"></i></a>
-        </div>
-
-        <div class="box">
-          <img src="./img/shop4.png" alt="" />
-          <h2>Nike Hod</h2>
-          <span>65000</span>
-          <a href="#"><i class="bx bxs-cart-alt"></i></a>
-        </div>
-
-        <div class="box">
-          <img src="./img/shop5.png" alt="" />
-          <h2>Hod Therma</h2>
-          <span>71000</span>
-          <a href="#"><i class="bx bxs-cart-alt"></i></a>
-        </div>
-
-        <div class="box">
-          <img src="./img/shop6.png" alt="" />
-          <h2>Camperas Therma</h2>
-          <span>93000</span>
-          <a href="#"><i class="bx bxs-cart-alt"></i></a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contenedor N°2 -->
-    <section class="new" id="new">
-      <div class="heading">
-        <h2><span>Accesorios</span> 2024</h2>
-      </div>
-
-      <div class="shop-container container">
-        <div class="box">
-          <img src="./img/new1.png" alt="" />
-          <h2>Zapatillas Nike</h2>
-          <span>51000</span>
-          <a href="#"><i class="bx bxs-cart-alt"></i></a>
-        </div>
-
-        <div class="box">
-          <img src="./img/new2.png" alt="" />
-          <h2>Mochilas Nike</h2>
-          <span>51000</span>
-          <a href="#"><i class="bx bxs-cart-alt"></i></a>
-        </div>
-
-        <div class="box">
-          <img src="./img/new3.png" alt="" />
-          <h2>Gorras Nike</h2>
-          <span>51000</span>
-          <a href="#"><i class="bx bxs-cart-alt"></i></a>
-        </div>
-      </div>
-    </section>
-
-    <section class="newsletter container">
-      <div class="heading">
-        <h2>Subscribe <span>Newsletter</span></h2>
-      </div>
-      <form action="">
-        <input
-          type="email"
-          name="email"
-          placeholder="Ingresar correo electronico..."
-          class="email-box"
-          required
-        />
-        <input type="submit" value="Subscribe" class="btn" />
-      </form>
-    </section>
-
-   
-
-    <section class="footer container">
-      <div class="footer-box">
-        <a href="#" class="logo"> <img src="./img/logo.png" alt="" /></a>
+      <nav>
+        <a href="./index.html"><img src="./img/logo1.png" alt="Logo" id="logo"></a>
         <div>
-          <a href="#"><i class="bx bxl-facebook"></i></a>
-          <a href="#"><i class="bx bxl-twitter"></i></a>
-          <a href="#"><i class="bx bxl-instagram"></i></a>
-          <a href="#"><i class="bx bxl-youtube"></i></a>
+          <a href="#">Running</a>
+          <a href="#">Originals</a>
+          <a href="./cart.html" id="cart"><img src="./img/iconos/shopping-cart.png" alt=""><span id="cuenta-carrito">0</span></a>
         </div>
+      </nav>
+    </header>
+  
+    <main>
+      <div class="portada">
+        <img src="./img/portada.jpg" alt="">
       </div>
-      <div class="footer-box">
-        <h3>Paginas</h3>
-        <a href="#home">Home</a>
-        <a href="#featured">Featured</a>
-        <a href="#shop">Shop</a>
-        <a href="#new">Accesorios</a>
-      </div>
-      <div class="footer-box">
-        <h3>Sobre Nosotros</h3>
-        <a href="#">Politica de privacidad</a>
-        <a href="#">Termino de reembolso</a>
-        <a href="#">Terminos de uso</a>
-        <a href="#">Responsabilidad</a>
-      </div>
-      <div class="footer-box">
-        <h3>Sucursales</h3>
-        <p>Martinez-Bs As</p>
-        <p>Villa Carlos Paz-Cordoba</p>
-        <p>Merlo-San Luis</p>
-        <p>Mendoza-Mza</p>
-      </div>
-    </section>
-    <!-- Copyright -->
+    </main>
+  
+    <main>
+      <section id="productos-container"></section>
+    </main>
+   
+    
 
-    <div class="copyright">
-      <p>&#169; e-Comercs Todos los Derechos Reservados</p>
-    </div>
-
-    <script src="./assets/main.js"></script>
+    <section class="contacto"> 
+      <!-- <div class="datos parallax"> -->
+          <div class="overlay"></div>
+              <div class="contenedor">
+                  <div class="nosotros">
+                      <h3>Escribenos</h3>
+                      <p>correo@correo</p>
+                  </div>
+                  <div class="nosotros">
+                      <h3>Visitanos</h3>
+                      <p>Calle 9 #12 <br>Ciudad Madero</p>
+                  </div>
+                  <div class="nosotros">
+                      <h3>Horarios</h3>
+                      <p>Lunes a Sabados<br>10hs - 20hs</p>
+                  </div>
+              </div>
+          </div>
+  
+      <div class="formulario">
+          <form action="" class="formulario_contacto" name="formulario_contacto">
+      <div>
+          <div class="input-group">
+              <input type="text" id="nombre" name="nombre">
+              <label class="label" for="nombre">Nombre</label>
+          </div>
+  
+          <div class="input-group">
+              <input type="text" id="email" name="email">
+              <label class="label" for="email">Correo electronico</label>
+          </div>
+  
+          <div class="input-group">
+              <textarea name="mensaje" id="mensaje"></textarea> 
+              <label class="label" for="mensaje">Mensaje</label>
+          </div>
+          <input type="submit" value="Enviar">
+      </div>
+  </form>
+  </div>
+   </section> <!-- Cierre contacto -->
+    
+    <!-- Main -->
+    <footer>
+      <p class="copyriht">Todos los derechos reservados</p>
+      <div class="bottom-redes">
+          <a href="#">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a href="#">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a href="#">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+      </div>
+  
+    </footer>
   </body>
 </html>
