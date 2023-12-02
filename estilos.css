@@ -1,3 +1,9 @@
+:root {
+	--color-acento      : #ee6130;
+	--color-acento-claro: #ee613033;
+	--color-texto       : black;
+}
+
 body {
 	margin        : 0;
 	font-family   : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
