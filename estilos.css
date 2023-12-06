@@ -99,20 +99,14 @@ header nav img {
 
 /*CONTACTO*/
 .contenedor {
-	margin            : 70px;
-	position          : relative;
-	z-index           : 2;
-	/*display         : -webkit-box;
-	display           : -webkit-flex;
-	display           : -ms-flexbox;*/
-	display           : flex;
-	/*-webkit-box-pack: justify;*/
-	justify-content   : space-between;
-	/*-ms-flex-pack   : justify;*/
-	justify-content   : space-between;
-	/*flex-wrap       : wrap;*/
-	-ms-flex-wrap     : wrap;
-	flex-wrap         : wrap;
+	margin         : 70px;
+	position       : relative;
+	z-index        : 2;
+	display        : flex;
+	justify-content: space-between;
+	justify-content: space-between;
+	-ms-flex-wrap  : wrap;
+	flex-wrap      : wrap;
 }
 
 .nosotros {
@@ -131,10 +125,7 @@ header nav img {
 	border-bottom: 1px solid #eaeaea;
 }
 
-/*.blurb p {
-	font-size: 1rem;
-	color: #777777;
-  }*/
+
 .formulario {
 	position    : relative;
 	z-index     : 3;
@@ -186,17 +177,13 @@ header nav img {
 }
 
 .formulario_contacto .input-group label.label {
-	position            : absolute;
-	top                 : 16px;
-	left                : 0;
-	font-size           : 1rem;
-	line-height         : 1rem;
-	margin-left         : 1rem;
-	/*-webkit-transition: all 0.3s ease;
-	-moz-transition     : all 0.3s ease;
-	-ms-transition      : all 0.3s ease;
-	-o-transition       : all 0.3s ease;*/
-	transition          : all 0.3s ease;
+	position   : absolute;
+	top        : 16px;
+	left       : 0;
+	font-size  : 1rem;
+	line-height: 1rem;
+	margin-left: 1rem;
+	transition : all 0.3s ease;
 }
 
 .formulario_contacto .input-group label.label.active {

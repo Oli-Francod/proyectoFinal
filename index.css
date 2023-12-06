@@ -2,15 +2,15 @@
 #productos-container {
     display        : flex;
     flex-wrap      : wrap;
-    gap            : 10px;
-    justify-content: center;
+    gap            : 40px;
+    justify-content: space-evenly;
 }
 
 .tarjeta-producto {
     background-color: var(--color-acento-claro);
     text-align      : center;
     padding         : 10px;
-    max-width       : 400px;
+    max-width       : 300px;
     box-shadow      : 0px 0px 5px rgba(0, 0, 0, 0.2);
     border-radius   : 4px;
     transition      : 200ms;
@@ -32,10 +32,10 @@
 }
 
 .tarjeta-producto button {
-    font-size       : larger;
+    font-size       : small;
     background-color: var(--color-acento);
     border-radius   : 5px;
-    padding         : 5px 10px;
+    padding         : 4px 8px;
     color           : white;
     border          : unset;
     cursor          : pointer;
